@@ -10,4 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public String feature2() {
+        return "hello, this is feature 2";
+    }
 }
